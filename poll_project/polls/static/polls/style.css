@@ -1,3 +1,101 @@
+body{
+    background: #f7bcf2;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    text-align: center;
+}
 li a {
-    color: green;
+    color:rgb(0, 0, 0);
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 1rem;
+}
+li{
+    list-style: none;
+  
+}
+ul{
+padding: 0;
+border: 2px solid white;
+padding: 3rem;
+border-radius: 1rem;
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.questionsContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+fieldset{
+    border: 2px solid #e39bf5;
+    border-radius: 1rem;
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+legend{
+    color: white;
+    text-align: center;
+}
+label{
+    color: white;
+    font-size: 1.5rem;
+}
+input{
+    cursor: pointer;
+}
+.btn{
+    background: white;
+    border: none;
+    font-size: 1.5rem;
+    color: #095F51;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 6rem;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+.resultsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.resultsContainer li{
+    font-size: 2rem;
+}
+.resultsContainer a{
+    text-decoration: none;
+    background: white;
+    border: none;
+    font-size: 1.5rem;
+    color: #095F51;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    
+    padding: 1rem;
+    cursor: pointer;
 }
